@@ -14,7 +14,7 @@
 	<h1>Internship Form</h1>
 	<form class="row g-3 needs-validation" novalidate>
   <div class="col-md-4">
-    <label for="first-name-input" class="form-label">First name</label>
+    <label id="first-name-input" for="first-name-input" class="form-label">First name</label>
     <input type="text" class="form-control" id="first-name-input" value="" required>
     <div class="valid-feedback">
       Looks good!
@@ -24,7 +24,7 @@
       </div>
   </div>
   <div class="col-md-4">
-    <label for="last-name-input" class="form-label">Last name</label>
+    <label id="last-name-input" for="last-name-input" class="form-label">Last name</label>
     <input type="text" class="form-control" id="last-name-input" value="" required>
     <div class="valid-feedback">
       Looks good!
@@ -34,25 +34,25 @@
       </div>
   </div>
   <div class="col-md-4">
-    <label for="email-inputemail-input" class="form-label">Email Address</label>
+    <label id="email-input" for="email-input" class="form-label">Email Address</label>
     <div class="input-group has-validation">
-      <span class="input-group-text" id="email-input">@</span>
-      <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="xyz@abc.com" required>
+      <span class="input-group-text" id="inputGroupPrepend">@</span>
+      <input type="email" class="form-control" id="email-input" aria-describedby="inputGroupPrepend" placeholder="xyz@abc.com" required>
       <div class="invalid-feedback">
         Please choose a username.
       </div>
     </div>
   </div>
   <div class="col-md-6">
-    <label for="college-input" class="form-label">College</label>
+    <label id="college-input" for="college-input" class="form-label">College</label>
     <input type="text" class="form-control" id="college-input" required>
     <div class="invalid-feedback">
       Please provide a valid city.
     </div>
   </div>
   <div class="col-md-3">
-    <label for="validationCustom04" class="form-label">Graduation Year</label>
-    <select class="form-select" id="validationCustom04" required>
+    <label id="grad-year-select" for="grad-year-select" class="form-label">Graduation Year</label>
+    <select class="form-select" id="grad-year-select" required>
       <option value="">2020</option>
       <option value="">2021</option>
       <option value="">2022</option>
@@ -63,7 +63,7 @@
     </div>
   </div>
   <div class="col-md-3">
-    <label for="roll-no-input" class="form-label">Roll No.</label>
+    <label id="roll-no-input" for="roll-no-input" class="form-label">Roll No.</label>
     <input type="text" class="form-control" id="roll-no-input" required>
     <div class="invalid-feedback">
       Please provide a valid zip.
@@ -71,8 +71,8 @@
   </div>
   <div class="col-12">
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-      <label class="form-check-label" for="invalidCheck">
+      <input class="form-check-input" type="checkbox" value="" id="conditions-checkbox" required>
+      <label id="conditions-checkbox" class="form-check-label" for="conditions-checkbox">
         Agree to terms and conditions
       </label>
       <div class="invalid-feedback">
