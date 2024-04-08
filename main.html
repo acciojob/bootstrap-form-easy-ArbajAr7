@@ -13,7 +13,7 @@
 </script>
 	<h1>Internship Form</h1>
 	<form class="row g-3 needs-validation" novalidate>
-    <label type="text" id="first-name-input" for="first-name-input" class="form-control form-label" aria-required>First Name</label>
+    <label type="text" id="first-name-input" for="first-name-input" class="form-control form-label" required>First Name</label>
     <input type="text" class="form-control" id="first-name-input" required>
     <div class="valid-feedback">
       Looks good!
@@ -21,7 +21,7 @@
 	  <div class="invalid-feedback">
         First Name Required
       </div>
-    <label type="text" id="last-name-input" for="last-name-input" class="form-control form-label" aria-required>Last Name</label>
+    <label type="text" id="last-name-input" for="last-name-input" class="form-control form-label" required>Last Name</label>
     <input type="text" class="form-control" id="last-name-input" required>
     <div class="valid-feedback">
       Looks good!
@@ -29,18 +29,18 @@
 	  <div class="invalid-feedback">
         Last Name Required
       </div>
-    <label type="email" id="email-input" for="email-input" class="form-control form-label" aria-required>Email Address</label>
+    <label type="email" id="email-input" for="email-input" class="form-control form-label" required>Email Address</label>
 	  <input type="email" class="form-control invalid-feedback" id="email-input" aria-describedby="inputGroupPrepend" placeholder="xyz@abc.com" required>
 
       <div class="invalid-feedback">
         Please choose a username.
       </div>
-    <label type="text" id="college-input" for="college-input" class="form-control form-label" aria-required>College</label>
+    <label type="text" id="college-input" for="college-input" class="form-control form-label" required>College</label>
     <input type="text" class="form-control" id="college-input" required>
     <div class="invalid-feedback">
       Please provide a valid city.
     </div>
-    <label id="grad-year-select" for="grad-year-select" class="form-control form-label" aria-required>Graduation Year</label>
+    <label id="grad-year-select" for="grad-year-select" class="form-control form-label" required>Graduation Year</label>
     <select class="form-select" id="grad-year-select" required>
       <option value="">2020</option>
       <option value="">2021</option>
@@ -50,14 +50,14 @@
     <div class="invalid-feedback">
       Please select a valid state.
     </div>
-    <label type="text" id="roll-no-input" for="roll-no-input" class="form-control form-label" aria-required>Roll No.</label>
+    <label type="text" id="roll-no-input" for="roll-no-input" class="form-control form-label" required>Roll No.</label>
     <input type="text" class="form-control" id="roll-no-input" required>
     <div class="invalid-feedback">
       Please provide a valid zip.
     </div>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="conditions-checkbox" required>
-      <label type="checkbox" id="conditions-checkbox" class="form-check-label" for="conditions-checkbox" aria-required>
+      <label type="checkbox" id="conditions-checkbox" class="form-check-label" for="conditions-checkbox" required>
         Agree to terms and conditions
       </label>
       <div class="invalid-feedback">
